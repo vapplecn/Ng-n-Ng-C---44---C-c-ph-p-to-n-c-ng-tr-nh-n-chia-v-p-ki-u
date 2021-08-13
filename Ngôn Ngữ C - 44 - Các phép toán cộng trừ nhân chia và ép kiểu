@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    int cong = 1 + 2; // so nguyen + so nguyen = so nguyen
+    int tru = 3 - 2; // tuong tu phep cong tren
+    int nhan = 2 * 3; // tuong tu
+    double chia = 1 / 2; // kq van ra so nguyen = 0
+
+    //cach cho ra ket qua dung = 0,5
+    double chia_1 = (double)1 / 2; //cach 1: ep kieu
+    double chia_2 = 1 / 2.0; //cach 2: trick
+
+    printf("%d %d %d %0.2f %0.2f %0.2f", cong, tru, nhan, chia, chia_1, chia_2);
+return 0;
+}
+
+
